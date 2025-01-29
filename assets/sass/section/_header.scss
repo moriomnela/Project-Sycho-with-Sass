@@ -1,0 +1,91 @@
+header{
+    .header-area{
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 0 105px;
+        .logo{
+            margin-top: 22px;
+        }
+        .main-menu{
+            ul{
+                display: flex;
+                li{
+                    margin-right: 48px;
+                    font-size: 18px;
+                    padding: 34px 0;
+                    position: relative;
+                    &:hover{
+                        .submenu{
+                            visibility: visible;
+                            top: 100%;
+                            opacity: 1;
+                        }
+                    }
+                   
+                    ::before{
+                        position: absolute;
+                        content: "";
+                        height: 0px;
+                        width: 2px;
+                        background: $primary_color;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        transition: .3s;
+                    }
+                    &:hover{
+                        ::before{
+                            height: 28px;
+                        }
+                    }
+                    a{
+                        color: $white;
+                        text-transform: capitalize;
+                        display: block;
+                        transition: .3s;
+                        &:hover {
+                            color: $primary_color;
+                        }
+                    }
+                   
+                }
+                .submenu{
+                    display: block;
+                    position: absolute;
+                    background: $white;
+                    min-width: 220px;
+                    border-top: 4px solid $primary_color;
+                    z-index: 2;
+                    top: 110%;
+                    left: 0;
+                    transition: .3s;
+                    visibility: hidden;
+                    opacity: 0;
+                    li{
+                        display: block;
+                        margin: 0;
+                        padding: 14px 0;
+                        &::before{
+                            display: none;
+                        }
+                        a{
+                            color: $black;
+                            font-size: 16px;
+                            font-weight: 600;
+                            &:hover{
+                                color: $primary_color;
+                            }
+                            &::before{
+                                display: none;
+                            }
+                        }
+                      
+                    }
+                }
+            }
+        }
+    }
+}
