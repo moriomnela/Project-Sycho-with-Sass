@@ -292,9 +292,13 @@ h1, h2, h3, h4, h5, h6 {
 header .header-area {
   position: absolute;
   left: 0;
+  position: fixed;
   right: 0;
   top: 0;
   padding: 0 105px;
+  background-color: rgba(39, 117, 111, 0.3);
+  height: 95px;
+  z-index: 700;
 }
 header .header-area .logo {
   margin-top: 22px;
@@ -313,7 +317,7 @@ header .header-area .main-menu ul li:hover .submenu {
   top: 100%;
   opacity: 1;
 }
-header .header-area .main-menu ul li ::before {
+header .header-area .main-menu ul li::before {
   position: absolute;
   content: "";
   height: 0px;
@@ -325,7 +329,7 @@ header .header-area .main-menu ul li ::before {
   margin: auto;
   transition: 0.3s;
 }
-header .header-area .main-menu ul li:hover ::before {
+header .header-area .main-menu ul li:hover::before {
   height: 28px;
 }
 header .header-area .main-menu ul li a {
@@ -366,8 +370,51 @@ header .header-area .main-menu ul .submenu li a {
 header .header-area .main-menu ul .submenu li a:hover {
   color: #f8a683;
 }
-header .header-area .main-menu ul .submenu li a::before {
+header .header-area .main-menu ul .submenu li ::before {
   display: none;
+}
+header .header-area .header-right {
+  display: flex;
+}
+header .header-area .header-right .header-cta {
+  padding: 34px 0px;
+}
+header .header-area .header-right .header-cta i {
+  color: #f8a683;
+  font-size: 18px;
+}
+header .header-area .header-right .header-cta span a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+header .header-area .header-right .header-bar {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 62px;
+  padding-top: 14px;
+  padding-left: 13px;
+  transition: 0.3s;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+header .header-area .header-right .header-bar:hover span:nth-child(2) {
+  width: 24px;
+}
+header .header-area .header-right .header-bar span {
+  background: #056c5f;
+  height: 2px;
+  width: 24px;
+  display: block;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+header .header-area .header-right .header-bar span:nth-child(2) {
+  width: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
