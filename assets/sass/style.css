@@ -289,6 +289,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Section*/
+/*Header-area Start*/
 header .header-area {
   position: absolute;
   left: 0;
@@ -416,5 +417,16 @@ header .header-area .header-right .header-bar span {
 header .header-area .header-right .header-bar span:nth-child(2) {
   width: 15px;
 }
+
+/*Header-area end*/
+/*Slider-area Start*/
+.slider-area .single-slider {
+  min-height: 1030px;
+}
+.slider-area .single-slider .slider-img img {
+  margin-top: 200px;
+}
+
+/*Slider-area end*/
 
 /*# sourceMappingURL=style.css.map */
