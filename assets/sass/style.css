@@ -493,4 +493,42 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   color: #fff;
 }
 
+.features-area .features-item {
+  background: #fff;
+  padding: 30px;
+  transition: 0.3s;
+}
+.features-area .features-item:hover {
+  background: #f8a683;
+}
+.features-area .features-item:hover .features-icon i {
+  background-color: #f8a683;
+}
+.features-area .features-item .features-icon i {
+  background-color: #056c5f;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 90px;
+  font-size: 30px;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-right: 35px;
+  transition: 0.3s;
+}
+.features-area .features-item .features-content {
+  overflow: hidden;
+}
+.features-area .features-item .features-content h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.features-area .features-item .features-content p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */

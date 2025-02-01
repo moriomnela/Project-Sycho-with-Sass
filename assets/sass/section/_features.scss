@@ -1,0 +1,48 @@
+.features-area{
+    .features-item{
+        background: $white;
+        padding: 30px;
+        transition: .3s;
+        &:hover{
+         background: $primary_color;
+         .features-icon i{
+            background-color: $primary_color;
+         }
+        }
+        .features-icon{
+            i{
+            background-color: $primary-color-2;
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 90px;
+            font-size: 30px;
+            color: $white; 
+            border: 1px solid $white;
+            margin-right: 35px;
+            transition: .3s;
+            }
+        }
+        .features-content{
+            overflow: hidden;
+            h3{
+                font-family: "Playfair Display", serif;
+                font-weight: 400;
+                margin-bottom: 15px;
+            }
+            p{
+            color: gray;
+            font-size: 15px;
+            font-weight: 500;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
