@@ -10,6 +10,7 @@ header{
         background-color: rgba(39, 117, 111,.3);
         height: 95px;
         z-index: 700;
+        background-size: cover;
         .logo{
             margin-top: 22px;
         }
@@ -117,7 +118,6 @@ header{
                     line-height: 62px;
                     padding-top: 14px;
                     padding-left: 13px;
-                    transition: 0.3s;
                     margin-top: 20px;
                     cursor: pointer;
                     margin-left: 50px;
@@ -144,18 +144,4 @@ header{
         }
     }
     /*Header-area end*/
-    /*Slider-area Start*/
-    .slider-area{
-        .single-slider{
-            min-height: 1030px;
-            .slider-content{
-
-            }
-            .slider-img{
-                img{
-                    margin-top: 200px;
-                }
-            }
-        }
-    }
-     /*Slider-area end*/
+    
