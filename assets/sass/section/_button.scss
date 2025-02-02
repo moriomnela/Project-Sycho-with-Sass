@@ -34,3 +34,21 @@
         color: $white;
     }
 }
+.button-3{
+    display: inline-block;
+    height: 65px;
+    background: $white;
+    padding: 0 50px;
+    border-radius: 0 50px 50px 50px;
+    text-align: center;
+    color: $font-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 65px;
+    transition: .3s;
+    &:hover{
+        background: $primary_color_2;
+        color: $white;
+    }
+}

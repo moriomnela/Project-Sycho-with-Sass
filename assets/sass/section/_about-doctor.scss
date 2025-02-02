@@ -1,0 +1,30 @@
+.about-doctor{
+    .Doctor-img{
+        img{
+            margin-top: -65px;
+        }
+    }
+    .doctor-content{
+        h2{
+            font-family: "Playfair Display", serif;
+            color: $font-color;
+            font-size: 50px;
+            font-weight: 300;
+        }
+        h5{
+            font-family: "Playfair Display", serif;
+            font-size: 26px;
+            font-weight: 300;
+            color: #056c5f;
+        }
+        p{
+          font-size: 17px;
+          color: rgb(132, 139, 138);
+          font-weight: 400;
+        }
+    }
+    .btn{
+        a{}
+        img{}
+    }
+}

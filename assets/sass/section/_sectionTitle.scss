@@ -1,0 +1,19 @@
+.section-title-wrap{
+    .section-sub-title{
+        img{
+
+        }
+    }
+    h2{
+     font-family: "Playfair Display", serif;
+     font-size: 50px;
+     line-height: 60px;
+     color: $font-color;
+     font-weight: 400;
+    }
+    span{
+        text-transform: uppercase;
+        color: gray;
+        font-weight: 500;
+    }
+}
