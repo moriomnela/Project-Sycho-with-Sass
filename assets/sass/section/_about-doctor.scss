@@ -2,6 +2,7 @@
     .Doctor-img{
         img{
             margin-top: -65px;
+            max-width: none;
         }
     }
     .doctor-content{
@@ -11,7 +12,7 @@
             font-size: 50px;
             font-weight: 300;
         }
-        h5{
+        h4{
             font-family: "Playfair Display", serif;
             font-size: 26px;
             font-weight: 300;
@@ -21,10 +22,12 @@
           font-size: 17px;
           color: rgb(132, 139, 138);
           font-weight: 400;
+          line-height: 30px;        
         }
     }
-    .btn{
-        a{}
-        img{}
+    .button-content{
+        img{
+            padding-left: 35px;
+        }
     }
 }
