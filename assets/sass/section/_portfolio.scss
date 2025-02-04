@@ -1,0 +1,14 @@
+.portfolio-area{
+    .portfolio-item{
+        overflow: hidden;
+        padding: 0;
+        img{
+          
+          transition: .3s;
+          max-width: 100%;
+          &:hover{
+            transform: scale(1.1);
+          }
+        }
+    }
+}

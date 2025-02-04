@@ -820,4 +820,22 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   font-weight: 500;
 }
 
+.portfolio-area .portfolio-item {
+  overflow: hidden;
+  padding: 0;
+}
+.portfolio-area .portfolio-item img {
+  transition: 0.3s;
+  max-width: 100%;
+}
+.portfolio-area .portfolio-item img:hover {
+  transform: scale(1.1);
+}
+
+.contact-area .contact-form form input {
+  height: 70px;
+  width: 100%;
+  color: tomato;
+}
+
 /*# sourceMappingURL=style.css.map */
