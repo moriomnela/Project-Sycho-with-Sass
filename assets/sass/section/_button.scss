@@ -52,3 +52,22 @@
         color: $white;
     }
 }
+.contact-button{
+    display: inline-block;
+    height: 65px;
+    background: $primary_color;
+    padding: 0 50px;
+    border-radius: 0 50px 50px 50px;
+    text-align: center;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 65px;
+    transition: .3s;
+    border: none;
+    &:hover{
+        background: $white;
+        color: $primary_color_2;
+    }
+}

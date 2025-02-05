@@ -151,7 +151,7 @@ $(document).ready(function() {
 
 // WOW active
 new WOW().init();
-
+$('contact-select').niceSelect();
 
 })(jQuery);
 // Initialize Swipe
@@ -161,4 +161,4 @@ new WOW().init();
 	  prevEl: ".swiper-button-prev",
 	},
   });
- 
+  
