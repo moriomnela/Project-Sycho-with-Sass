@@ -912,6 +912,100 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   transform: translateY(-60px);
 }
 
+.article-area .article-img {
+  overflow: hidden;
+}
+.article-area .article-img img {
+  transition: 0.4s;
+}
+.article-area .article-img img:hover {
+  transform: scale(1.1);
+}
+.article-area .article-content {
+  position: relative;
+  background: #fbf7f3;
+  width: 80%;
+  padding-left: 20px;
+  margin-top: -70px;
+}
+.article-area .article-content .calender {
+  position: absolute;
+  text-align: right;
+  background: #056c5f;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 2;
+  padding: 20px;
+  right: 0;
+  top: 0;
+}
+.article-area .article-content .calender h5 {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 20px;
+}
+.article-area .article-content .calender span {
+  color: #fff;
+  font-weight: 600;
+}
+.article-area .article-content .article-up {
+  transition: 0.3s;
+}
+.article-area .article-content .article-up span a {
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.article-area .article-content .article-up span a i {
+  transition: 0.3s;
+  color: #f8a683;
+  margin-right: 7px;
+}
+.article-area .article-content .article-up span:hover i {
+  color: #056c5f;
+}
+.article-area .article-content .article-up span:hover a {
+  color: #056c5f;
+}
+.article-area .article-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 27px;
+  line-height: 31px;
+  margin-top: 14px;
+  margin-bottom: 22px;
+  font-weight: 300;
+  color: #005046;
+  transition: 0.3s;
+}
+.article-area .article-content h2:hover {
+  color: #f8a683;
+  cursor: pointer;
+}
+.article-area .article-content .article-meta span {
+  margin-right: 18px;
+}
+.article-area .article-content .article-meta span a {
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.article-area .article-content .article-meta span a i {
+  transition: 0.3s;
+  color: #f8a683;
+  margin-right: 7px;
+}
+.article-area .article-content .article-meta span:hover a {
+  color: #056c5f;
+}
+.article-area .article-content .article-meta span:hover i {
+  color: #056c5f;
+}
+
 .brand-area {
   background: #151616;
 }
