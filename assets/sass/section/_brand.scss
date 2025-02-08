@@ -22,4 +22,74 @@
                 padding-right: 100px;
             } 
         }
+        .footer_widget{
+            .logo{
+                a{
+                    img{
+                        padding-bottom: 20px;
+                    }
+                }
+              }
+                .footer_area{
+                    p{
+                      color: $footer_font;
+                      font-size: 16px;
+                      font-weight: 500;
+                      line-height: 27px;
+                    }
+                }
+            .social{
+                h4{
+                    color: $white;
+                    font-family: "Playfair Display", serif;
+                    padding-bottom: 10px;
+                }
+                ul{
+                    display: flex;
+                    padding: 0;
+                    li{
+                        a{
+                            display: block;
+                            text-align: center;
+                            font-size: 14px;
+                            background-color: #313232;
+                            color: $white;
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                            margin-right: 10px;
+                            border-radius: 50%;
+                            transition: .3s;
+                            &:hover{
+                                color: $white;
+                                background-color: $primary-color;
+                            }
+                            i{
+                              margin: 0;
+                              
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-service{
+            .footer-title{
+                h4{
+                    color: $white;
+                    font-family: "Playfair Display", serif;
+                    padding-bottom: 10px;
+                }
+            }
+            .footer-list{
+                ul{
+                    li{
+                        a{
+                            color: $white;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
 }
