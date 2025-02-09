@@ -1073,6 +1073,7 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   color: #fff;
   font-family: "Playfair Display", serif;
   padding-bottom: 10px;
+  font-size: 25px;
 }
 .brand-area .footer-service .footer-list ul {
   padding: 0;
@@ -1086,6 +1087,19 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   font-size: 17px;
   font-weight: 500;
   padding-left: 10px;
+}
+.brand-area .footer-service .footer-list ul li a::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 5px;
+  left: 0;
+  top: 50%;
+  background: #848b8a;
+}
+.brand-area .footer-service .footer-list ul li a::before:hover a {
+  width: 5px;
+  padding-left: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
