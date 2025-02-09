@@ -1087,6 +1087,7 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   font-size: 17px;
   font-weight: 500;
   padding-left: 10px;
+  transition: 0.4s;
 }
 .brand-area .footer-service .footer-list ul li a::before {
   position: absolute;
@@ -1097,8 +1098,11 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   top: 50%;
   background: #848b8a;
 }
-.brand-area .footer-service .footer-list ul li a::before:hover a {
-  width: 5px;
+.brand-area .footer-service .footer-list ul li a::before:hover {
+  width: 10px;
+}
+.brand-area .footer-service .footer-list ul li a:hover {
+  color: #fff;
   padding-left: 20px;
 }
 

@@ -94,6 +94,7 @@
                             font-size: 17px;
                             font-weight: 500;
                             padding-left: 10px;
+                            transition: .4s;
                             &::before{
                                 position: absolute;
                                 content: "";
@@ -102,10 +103,13 @@
                                 left: 0;
                                 top: 50%;
                                 background: $footer_font;
-                                &:hover a{
-                                    width: 5px;
-                                    padding-left: 20px;
+                                &:hover{
+                                    width: 10px;
                                 }
+                            }
+                            &:hover{
+                                color: $white;
+                                padding-left: 20px;
                             }
                         }
                     }
