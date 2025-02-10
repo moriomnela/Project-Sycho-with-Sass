@@ -95,17 +95,18 @@
                             font-weight: 500;
                             padding-left: 10px;
                             transition: .4s;
+                            &:hover::before{
+                                width: 10px;
+                            }
                             &::before{
                                 position: absolute;
                                 content: "";
+                                transition: .3s;
                                 height: 2px;
                                 width: 5px;
                                 left: 0;
                                 top: 50%;
                                 background: $footer_font;
-                                &:hover{
-                                    width: 10px;
-                                }
                             }
                             &:hover{
                                 color: $white;
