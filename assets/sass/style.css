@@ -1106,5 +1106,11 @@ header .header-area .header-right .header-bar span:nth-child(2) {
   color: #fff;
   padding-left: 20px;
 }
+.brand-area .footer-contact .contact-title h4 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */
