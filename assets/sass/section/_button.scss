@@ -29,6 +29,7 @@
     font-size: 13px;
     line-height: 65px;
     transition: .3s;
+    border: none;
     &:hover{
         background: $primary_color;
         color: $white;
@@ -70,4 +71,17 @@
         background: $white;
         color: $primary_color_2;
     }
+}
+.email-button{
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    padding: 0 25px;
+    font-size: 15px;
+    color: #056c5f;
+    border: none;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #ffffff;
+    margin-bottom: 16px;
 }
