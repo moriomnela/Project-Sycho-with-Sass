@@ -861,7 +861,9 @@ header .header-area .header-right .header-bar span:nth-child(2) {
 }
 .portfolio-area .portfolio-item img {
   transition: 0.3s;
-  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .portfolio-area .portfolio-item img:hover {
   transform: scale(1.1);
